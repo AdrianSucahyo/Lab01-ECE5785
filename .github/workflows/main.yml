@@ -23,6 +23,7 @@ jobs:
       run: git submodule update --init
 
     - name: Say hello
+      shell: bash
       working-directory: ${{github.workspace}}
       run:
           test ! -f hello.txt
