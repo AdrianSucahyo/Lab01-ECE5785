@@ -26,5 +26,5 @@ firmware.elf: $(OBJS)
 	$(LD) -o $@ $^
 
 clean:
-	rm -f *.i *.o *.s hello.txt
+	rm -f *.i *.o *.s hello.txt firmware.elf
 
